@@ -2,11 +2,15 @@
 
 A simple web application for obtaining motor insurance quotations. Built as part of the Hobbiton internship application challenge.
 
+## Live Demo
+
+- (https://motorinsure.netlify.app/)
+
 ## Features
 
 - **4-Step Form Process**: Guides users through personal details, vehicle information, coverage selection, and quote summary
 - **Real-time Validation**: Validates each step before allowing progression
-- **Dynamic Quote Calculation**: Calculates insurance premium based on coverage type, vehicle value, and usage
+- **Quote Calculation**: Calculates insurance premium based on coverage type, vehicle value, and usage
 - **Responsive Design**: Works on desktop and mobile devices
 - **Clean UI**: Modern interface using Tailwind CSS
 
@@ -16,24 +20,7 @@ A simple web application for obtaining motor insurance quotations. Built as part
 - **TypeScript** - Type safety and better development experience
 - **Tailwind CSS** (v3) - Utility-first CSS framework
 - **React Scripts** - Build tooling
-
-## Project Structure
-
-```
-src/
-├── components/          # Reusable UI components
-│   ├── Button.tsx
-│   ├── InputField.tsx
-│   ├── ProgressIndicator.tsx
-│   ├── PersonalDetailsStep.tsx
-│   ├── VehicleDetailsStep.tsx
-│   ├── CoverageStep.tsx
-│   └── QuoteSummary.tsx
-├── App.tsx             # Main application component
-├── types.ts            # TypeScript type definitions
-├── utils.ts            # Utility functions (validation, calculations)
-└── index.tsx           # Application entry point
-```
+- **Netlify** - Hosting and deployment
 
 ## How It Works
 
@@ -106,9 +93,9 @@ Final Premium = (Base Price + 5% of Vehicle Value) × Usage Multiplier
 
 ## Available Scripts
 
-- pm start - Runs the app in development mode
-- pm run build - Builds the app for production
-- pm test - Runs the test suite
+- npm start - Runs the app in development mode
+- npm run build - Builds the app for production
+
 
 ## Future Enhancements
 
