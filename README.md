@@ -108,4 +108,4 @@ Final Premium = (Base Price + 5% of Vehicle Value) × Usage Multiplier
 
 ## Author
 
-Watutemwa - Hobbiton Internship Challenge 2025
+Watutemwa Matuze 
